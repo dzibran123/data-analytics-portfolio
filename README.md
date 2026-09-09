@@ -2,6 +2,9 @@
 
 A Python-based analytics project that cleans raw transaction data, calculates sales KPIs, separates payment outcomes, and publishes an interactive Plotly dashboard for decision-makers.
 
+## Dashboard Preview
+![E-Commerce Sales Dashboard](docs/dashboard_preview.png)
+
 ## Problem Statement
 
 Operational teams often receive data in inconsistent formats and spend too much time manually preparing reports. Common issues include:

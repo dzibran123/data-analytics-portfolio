@@ -1,0 +1,9 @@
+order_id,tanggal_transaksi,nama_produk,kategori,harga_satuan,jumlah_beli,kota_pembeli,status_pembayaran,total_harga
+ORD-1032,2026-03-15,Mechanical Keyboard RGB,Elektronik,450000,4,Makassar,CANCELLED,1800000
+ORD-1029,2026-03-19,Kaos Polos Cotton 30s,Fashion,65000,5,Makassar,CANCELLED,325000
+ORD-1001,2026-03-18,Celana Chino Slim,Fashion,145000,1,Medan,CANCELLED,145000
+ORD-1022,2026-03-11,TWS Bluetooth Earphone,Elektronik,199000,3,Medan,CANCELLED,597000
+ORD-1006,2026-03-20,Lampu Meja Belajar,Perlengkapan,120000,5,Medan,CANCELLED,600000
+ORD-1042,2026-03-03,Mouse Gaming Wireless,Elektronik,250000,4,Makassar,CANCELLED,1000000
+ORD-1017,2026-03-02,Mouse Gaming Wireless,Elektronik,250000,1,Makassar,CANCELLED,250000
+ORD-1030,2026-03-05,TWS Bluetooth Earphone,Elektronik,199000,4,Medan,CANCELLED,796000

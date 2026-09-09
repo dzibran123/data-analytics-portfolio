@@ -1,0 +1,51 @@
+order_id,tanggal_transaksi,nama_produk,kategori,harga_satuan,jumlah_beli,kota_pembeli,status_pembayaran
+ORD-1024,11-03-2026,Monitor 24 Inch 144Hz,Elektronik,Rp 1.750.000,2,Bandung,PAID
+ORD-1036,19-03-2026,Botol Minum Tumbler,PERLENGKAPAN,Rp 85.000,1,Samarinda,PAID
+ORD-1004,12/03/2026,Monitor 24 Inch 144Hz,Elektronik,Rp 1.750.000,1,Medan,PAID
+ORD-1026,05/03/2026,Mouse Gaming Wireless,ELEKTRONIK,Rp 250.000,5,Surabaya,PAID
+ORD-1032,15-03-2026,Mechanical Keyboard RGB,elektronik,Rp 450.000,4,Makassar,CANCELLED
+ORD-1033,04/03/2026,Mouse Gaming Wireless,elektronik,Rp 250.000,-4,Makassar,REFUND
+ORD-1047,18/03/2026,Mousepad XL Gaming,perlengkapan,Rp 95.000,1,Jakarta,PAID
+ORD-1046,18-03-2026,TWS Bluetooth Earphone,ELEKTRONIK,Rp 199.000,2,Bandung,PAID
+ORD-1014,12/03/2026,Lampu Meja Belajar,Perlengkapan,Rp 120.000,-1,Medan,REFUND
+ORD-1039,2026-03-14,Mechanical Keyboard RGB,Elektronik,Rp 450.000,1,Medan,PAID
+ORD-1012,,Mechanical Keyboard RGB,elektronik,Rp 450.000,-1,Medan,REFUND
+ORD-1003,2026-03-07,Celana Chino Slim,Fashion,Rp 145.000,3,Surabaya,PAID
+ORD-1038,14/03/2026,Lampu Meja Belajar,PERLENGKAPAN,Rp 120.000,1,Medan,PAID
+ORD-1005,2026-03-16,Celana Chino Slim,Fashion,Rp 145.000,1,Medan,PAID
+ORD-1035,02-03-2026,Mousepad XL Gaming,Perlengkapan,Rp 95.000,5,Yogyakarta,PAID
+ORD-1029,19/03/2026,Kaos Polos Cotton 30s,FASHION,Rp 65.000,5,Makassar,CANCELLED
+ORD-1023,20/03/2026,Celana Chino Slim,Fashion,Rp 145.000,4,Jakarta,PAID
+ORD-1021,05-03-2026,Celana Chino Slim,fashion,Rp 145.000,2,Jakarta,PAID
+ORD-1045,14/03/2026,Mechanical Keyboard RGB,elektronik,Rp 450.000,3,Makassar,PAID
+ORD-1044,,Mouse Gaming Wireless,Elektronik,Rp 250.000,2,Surabaya,PAID
+ORD-1018,05/03/2026,Kaos Polos Cotton 30s,fashion,Rp 65.000,4,Jakarta,PAID
+ORD-1028,10/03/2026,Mouse Gaming Wireless,ELEKTRONIK,Rp 250.000,2,Samarinda,PAID
+ORD-1010,20-03-2026,Mousepad XL Gaming,perlengkapan,Rp 95.000,1,Jakarta,PAID
+ORD-1034,10-03-2026,Celana Chino Slim,Fashion,Rp 145.000,1,Medan,PAID
+ORD-1009,19-03-2026,Botol Minum Tumbler,PERLENGKAPAN,Rp 85.000,4,Makassar,PAID
+ORD-1002,03/03/2026,Botol Minum Tumbler,PERLENGKAPAN,Rp 85.000,-4,Medan,REFUND
+ORD-1040,10-03-2026,Mouse Gaming Wireless,Elektronik,Rp 250.000,2,Makassar,PAID
+ORD-1008,13/03/2026,Mousepad XL Gaming,perlengkapan,Rp 95.000,4,Bandung,PAID
+ORD-1015,2026-03-18,Kaos Polos Cotton 30s,FASHION,Rp 65.000,3,Samarinda,PAID
+ORD-1016,2026-03-15,TWS Bluetooth Earphone,Elektronik,Rp 199.000,4,Jakarta,PAID
+ORD-1007,2026-03-17,Mechanical Keyboard RGB,elektronik,Rp 450.000,1,Yogyakarta,PAID
+ORD-1027,16/03/2026,Lampu Meja Belajar,perlengkapan,Rp 120.000,2,Yogyakarta,PAID
+ORD-1041,2026-03-15,Celana Chino Slim,Fashion,Rp 145.000,-4,Samarinda,REFUND
+ORD-1001,18/03/2026,Celana Chino Slim,FASHION,Rp 145.000,1,Medan,CANCELLED
+ORD-1020,12/03/2026,Lampu Meja Belajar,PERLENGKAPAN,Rp 120.000,1,Medan,PAID
+ORD-1022,11/03/2026,TWS Bluetooth Earphone,elektronik,Rp 199.000,3,Medan,CANCELLED
+ORD-1003,2026-03-07,Celana Chino Slim,Fashion,Rp 145.000,3,Surabaya,PAID
+ORD-1025,2026-03-03,Hoodie Oversize,FASHION,Rp 180.000,5,Surabaya,PAID
+ORD-1037,09-03-2026,Kaos Polos Cotton 30s,Fashion,Rp 65.000,5,Medan,PAID
+ORD-1043,11/03/2026,Lampu Meja Belajar,perlengkapan,Rp 120.000,4,Medan,PAID
+ORD-1013,18/03/2026,Mechanical Keyboard RGB,Elektronik,Rp 450.000,3,Makassar,PAID
+ORD-1006,2026-03-20,Lampu Meja Belajar,PERLENGKAPAN,Rp 120.000,5,Medan,CANCELLED
+ORD-1042,2026-03-03,Mouse Gaming Wireless,elektronik,Rp 250.000,4,Makassar,CANCELLED
+ORD-1019,06-03-2026,Hoodie Oversize,FASHION,Rp 180.000,1,Makassar,PAID
+ORD-1017,02-03-2026,Mouse Gaming Wireless,ELEKTRONIK,Rp 250.000,1,Makassar,CANCELLED
+ORD-1030,05-03-2026,TWS Bluetooth Earphone,Elektronik,Rp 199.000,4,Medan,CANCELLED
+ORD-1005,2026-03-16,Celana Chino Slim,Fashion,Rp 145.000,1,Medan,PAID
+ORD-1031,,Lampu Meja Belajar,Perlengkapan,Rp 120.000,4,Samarinda,PAID
+ORD-1011,2026-03-03,Mouse Gaming Wireless,elektronik,Rp 250.000,5,Yogyakarta,PAID
+ORD-1004,12/03/2026,Monitor 24 Inch 144Hz,Elektronik,Rp 1.750.000,1,Medan,PAID

@@ -1,0 +1,6 @@
+order_id,tanggal_transaksi,nama_produk,kategori,harga_satuan,jumlah_beli,kota_pembeli,status_pembayaran,total_harga
+ORD-1033,2026-03-04,Mouse Gaming Wireless,Elektronik,250000,-4,Makassar,REFUND,1000000
+ORD-1014,2026-03-12,Lampu Meja Belajar,Perlengkapan,120000,-1,Medan,REFUND,120000
+ORD-1012,2026-03-14,Mechanical Keyboard RGB,Elektronik,450000,-1,Medan,REFUND,450000
+ORD-1002,2026-03-03,Botol Minum Tumbler,Perlengkapan,85000,-4,Medan,REFUND,340000
+ORD-1041,2026-03-15,Celana Chino Slim,Fashion,145000,-4,Samarinda,REFUND,580000

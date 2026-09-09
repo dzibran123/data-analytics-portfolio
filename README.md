@@ -1,11 +1,6 @@
-# Executive Analytics Automation Suite
+# E-Commerce Sales Pipeline & Interactive Plotly Dashboard
 
-A Python-based analytics project that turns raw transaction data into executive-ready insights through two complementary modules:
-
-1. **E-Commerce Sales Pipeline & Plotly Dashboard**
-2. **Automated Hospital Executive Excel Dashboard Generator**
-
-The project demonstrates how a repeatable data workflow can clean inconsistent source data, separate operational outcomes, calculate business KPIs, and publish polished dashboards for decision-makers.
+A Python-based analytics project that cleans raw transaction data, calculates sales KPIs, separates payment outcomes, and publishes an interactive Plotly dashboard for decision-makers.
 
 ## Problem Statement
 
@@ -16,13 +11,10 @@ Operational teams often receive data in inconsistent formats and spend too much 
 - Currency values stored as formatted text instead of numbers.
 - Inconsistent category and payment-status labels.
 - Limited visibility into successful, cancelled, and refunded transactions.
-- Repetitive manual work when preparing executive reports in Excel.
 
-This project addresses those problems with an automated pipeline that standardizes raw data once and reuses the cleaned outputs across interactive web visualization and formatted Excel reporting.
+This project addresses those problems with an automated pipeline that standardizes raw data, produces reusable cleaned datasets, and publishes an interactive web dashboard.
 
-## Modules
-
-### 1. E-Commerce Sales Pipeline & Plotly Dashboard
+## E-Commerce Sales Pipeline & Plotly Dashboard
 
 The sales pipeline is implemented in `analyze_sales.py` and `visualize_all_metrics.py`.
 
@@ -48,28 +40,11 @@ The dashboard includes:
 - Daily revenue trend.
 - Transaction-value distribution by status.
 
-### 2. Automated Hospital Executive Excel Dashboard Generator
-
-The executive reporting pattern is implemented in `export_to_excel.py`. It automates the creation of an Excel workbook with a KPI summary and detailed operational tabs.
-
-The generator is designed as a reusable foundation for executive reporting, including hospital contexts where the same pattern can be applied to metrics such as patient volume, admissions, cancellations, refunds, service utilization, and revenue.
-
-The generated workbook provides:
-
-- An executive KPI summary sheet.
-- Category and location breakdowns.
-- Separate detail sheets for successful, cancelled, and refunded records.
-- Consistent currency and quantity formatting.
-- Styled headers, borders, section labels, and readable column widths.
-- Frozen panes and auto-filters for easier review.
-- A repeatable output process with no manual spreadsheet formatting required.
-
 ## Technology Stack
 
 - **Python 3.10+**: Pipeline orchestration and business logic.
 - **Pandas**: Data cleaning, transformation, aggregation, and CSV I/O.
 - **Plotly**: Interactive executive web dashboard generation.
-- **OpenPyXL**: Excel workbook creation and formatting.
 
 ## Project Structure
 
@@ -78,13 +53,11 @@ The generated workbook provides:
 ├── analyze_sales.py                 # Validate, clean, classify, and summarize raw sales data
 ├── generate_mock_sales.py           # Generate reproducible sample transaction data
 ├── visualize_all_metrics.py         # Build the interactive Plotly dashboard
-├── export_to_excel.py               # Build the executive Excel dashboard
 ├── sample_sales_50.csv              # Raw sample input
 ├── cleaned_sales_paid.csv           # Cleaned PAID transactions
 ├── sales_cancelled.csv              # CANCELLED transactions
 ├── sales_refunded.csv               # REFUND transactions
-├── executive_sales_dashboard.html  # Generated interactive dashboard
-└── Laporan_Penjualan_Maret_2026.xlsx # Generated Excel report
+└── executive_sales_dashboard.html  # Generated interactive dashboard
 ```
 
 ## Installation
@@ -120,7 +93,7 @@ Install the dependencies:
 
 ```bash
 python -m pip install --upgrade pip
-python -m pip install pandas plotly openpyxl
+python -m pip install pandas plotly
 ```
 
 ## Usage
@@ -157,16 +130,6 @@ python visualize_all_metrics.py
 
 Open `executive_sales_dashboard.html` in a browser to explore the interactive charts.
 
-### 4. Generate the executive Excel dashboard
-
-```bash
-python export_to_excel.py
-```
-
-The formatted workbook is saved as `Laporan_Penjualan_Maret_2026.xlsx`.
-
-For a hospital implementation, map the input columns and KPI aggregations in `export_to_excel.py` to the hospital's operational data model while preserving the same automated workbook-generation pattern.
-
 ## Data Automation Highlights
 
 - **Schema validation:** Fails early when required fields are missing.
@@ -175,9 +138,8 @@ For a hospital implementation, map the input columns and KPI aggregations in `ex
 - **Currency normalization:** Converts formatted Rupiah text into numeric values for reliable aggregation.
 - **Status-based routing:** Automatically separates paid, cancelled, and refunded records.
 - **Derived metrics:** Calculates transaction totals and summary KPIs from source columns.
-- **Reusable outputs:** The same cleaned CSV outputs power both reporting modules.
+- **Reusable outputs:** The cleaned CSV outputs support dashboard analysis and downstream sales reporting.
 - **Deterministic sample generation:** Uses a fixed random seed for reproducible demonstrations.
-- **Automated formatting:** Applies Excel styles, number formats, filters, frozen panes, borders, and column sizing programmatically.
 - **Self-contained delivery:** Exports a standalone HTML dashboard that can be opened without a separate web server.
 
 ## Expected Input Schema
@@ -201,9 +163,8 @@ Payment statuses used by the current pipeline are `PAID`, `CANCELLED`, and `REFU
 
 - Add automated tests for validation, date parsing, and KPI calculations.
 - Move file paths and report periods into a configuration file or CLI arguments.
-- Add hospital-specific source adapters and KPI definitions.
 - Add scheduled execution through a CI workflow or task scheduler.
-- Add data-quality and reconciliation checks before publishing reports.
+- Add data-quality and reconciliation checks before publishing the dashboard.
 
 ## License
 
